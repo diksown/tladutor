@@ -1,20 +1,48 @@
 import "./Translation.css";
+import staticData from "./static.json";
+import { useState } from "react";
+
+// From github.com/theuves-projects/cebolinha
+function cebolinha(text) {
+  return text
+    .replace(/r(?=(l|L))/g, "u")
+    .replace(/R(?=(l|L))/g, "U")
+    .replace(/r+(?!\b)/g, "l")
+    .replace(/R+(?!\b)/g, "L");
+}
+
+function TranslationBoxInput({ enteredText, setEnteredText }) {
+  return (
+    <div className="TranslationBoxInput Card">
+      <textarea
+        cols="30"
+        rows="20"
+        value={enteredText}
+        onChange={(e) => setEnteredText(e.target.value)}
+      />
+    </div>
+  );
+}
+
+function TranslationBoxOutput({ enteredText }) {
+  return (
+    <div className="TranslationBoxOutput Card">
+      <textarea cols="30" rows="20" value={cebolinha(enteredText)} />
+    </div>
+  );
+}
 
 function Translation() {
+  const defaultText = staticData.defaultEnteredText;
+  const [enteredText, setEnteredText] = useState(defaultText);
+
   return (
     <div className="Translation">
-      <div class="Card">
-        Para ser sincero, você precisa ter um QI muito alto para entender Rick e
-        Morty. O humor é extremamente sutil e, sem uma compreensão sólida de
-        física teórica, a maioria das piadas vai passar despercebida pelo
-        telespectador médio. Há também a visão niilista de Rick
-      </div>
-      <div class="Card">
-        Pala ser sincelo, você plecisa ter um QI muito alto pala entender Lick e
-        Molty. O humor é extlemamente sutil e, sem uma compleensão sólida de
-        física teólica, a maiolia das piadas vai passar despelcebida pelo
-        telespectador médio. Há também a visão niilista de Lick
-      </div>
+      <TranslationBoxInput
+        enteredText={enteredText}
+        setEnteredText={setEnteredText}
+      />
+      <TranslationBoxOutput enteredText={enteredText} />
     </div>
   );
 }
