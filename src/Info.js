@@ -1,8 +1,9 @@
 import "./Info.css";
+import "./Common.css";
 
 function Info() {
   return (
-    <div className="Info">
+    <div className="Info Balloon">
       <h2>Por que o Cebolinha fala assim?</h2>
       <p>
         O Cebolinha possui dislalia, uma alteração da fala em que a pessoa não

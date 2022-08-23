@@ -1,0 +1,8 @@
+.AppLogo {
+  background-color: white;
+  padding: 5px;
+}
+
+.AppLogo > h1 {
+  margin: 0;
+}
