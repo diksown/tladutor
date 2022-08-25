@@ -3,7 +3,7 @@ import "./Common.css";
 
 function AppLogo() {
   return (
-    <div className="AppLogo Balloon">
+    <div className="AppLogo">
       <h1>tladutor</h1>
     </div>
   );

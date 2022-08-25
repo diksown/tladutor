@@ -1,4 +1,5 @@
 import "./Translation.css";
+import "./Common.css";
 import staticData from "./static.json";
 import { useState } from "react";
 
@@ -13,8 +14,9 @@ function cebolinha(text) {
 
 function TranslationBoxInput({ enteredText, setEnteredText }) {
   return (
-    <div className="TranslationBoxInput Card">
+    <div className="TranslationBoxInput Card Balloon">
       <textarea
+        className="TranslationArea"
         cols="30"
         rows="20"
         value={enteredText}
@@ -26,8 +28,13 @@ function TranslationBoxInput({ enteredText, setEnteredText }) {
 
 function TranslationBoxOutput({ enteredText }) {
   return (
-    <div className="TranslationBoxOutput Card">
-      <textarea cols="30" rows="20" value={cebolinha(enteredText)} />
+    <div className="TranslationBoxOutput Card Balloon">
+      <textarea
+        className="TranslationArea"
+        cols="30"
+        rows="20"
+        value={cebolinha(enteredText)}
+      />
     </div>
   );
 }

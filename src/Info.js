@@ -12,7 +12,7 @@ function Info() {
         do meio das palavras, pronunciando a letra L no lugar, uma
         característica marcante desse personagem da Turma da Mônica.
       </p>
-      <h2>Culiosidades</h2>
+      <h2>Curiosidades</h2>
       <ul>
         <li>
           Ao contrário do que muitos pensam, o Cebolinha não troca o R do final
@@ -36,7 +36,7 @@ function Info() {
           trocar as letras.
         </li>
       </ul>
-      <h2>Refelências</h2>
+      <h2>Referências</h2>
       <ul>
         <li>
           Matéria no Tua Saúde sobre dislalia: Dislalia: o que é, causas e

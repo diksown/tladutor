@@ -1,6 +1,12 @@
 .AppLogo {
-  background-color: white;
-  padding: 5px;
+  background-color: var(--bg-text-color);
+  padding: 20px;
+  margin: 30px;
+  border-radius: 70px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  font-family: var(--comic-font-family);
 }
 
 .AppLogo > h1 {
