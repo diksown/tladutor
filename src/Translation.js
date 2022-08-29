@@ -4,6 +4,7 @@ import staticData from "./static.json";
 import { useState } from "react";
 
 // From github.com/theuves-projects/cebolinha
+// TODO: use the original repository
 function cebolinha(text) {
   return text
     .replace(/r(?=(l|L))/g, "u")
@@ -12,13 +13,27 @@ function cebolinha(text) {
     .replace(/R+(?!\b)/g, "L");
 }
 
+// function TranslationArea({}) {
+//   return (
+//     <textarea
+//         className="TranslationArea"
+//         // cols="30"
+//         // rows="20"
+//         spellCheck="false"
+//         value={enteredText}
+//         onChange={(e) => setEnteredText(e.target.value)}
+//       />
+//   )
+// }
+
 function TranslationBoxInput({ enteredText, setEnteredText }) {
   return (
     <div className="TranslationBoxInput Card Balloon">
       <textarea
         className="TranslationArea"
-        cols="30"
-        rows="20"
+        // cols="30"
+        // rows="20"
+        spellCheck="false"
         value={enteredText}
         onChange={(e) => setEnteredText(e.target.value)}
       />
@@ -31,8 +46,9 @@ function TranslationBoxOutput({ enteredText }) {
     <div className="TranslationBoxOutput Card Balloon">
       <textarea
         className="TranslationArea"
-        cols="30"
-        rows="20"
+        // cols="30"
+        // rows="20"
+        spellCheck="false"
         value={cebolinha(enteredText)}
       />
     </div>

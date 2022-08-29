@@ -4,7 +4,7 @@ import "./Common.css";
 function AppLogo() {
   return (
     <div className="AppLogo">
-      <h1>tladutor</h1>
+      <h1>TLADUTOR</h1>
     </div>
   );
 }

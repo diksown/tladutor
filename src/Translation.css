@@ -13,8 +13,8 @@
 .TranslationArea {
   font: inherit;
   font-family: var(--comic-font-family);
-  font-weight: 700;
-  font-size: 24px;
+  /* font-weight: 700; */
+  /* font-size: 24px; */
   border: none;
   background-color: inherit;
 }
