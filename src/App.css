@@ -1,12 +1,11 @@
 .App {
   /* text-align: center; */
   background-color: var(--bg-color);
-  font-family: var(--font-color);
+  font-family: var(--normal-font-family);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: calc(10px + 1vmin);
   color: var(--font-color);
-  padding: 20px;
 }

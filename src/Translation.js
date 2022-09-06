@@ -31,8 +31,6 @@ function TranslationBoxInput({ enteredText, setEnteredText }) {
     <div className="TranslationBoxInput Card Balloon">
       <textarea
         className="TranslationArea"
-        // cols="30"
-        // rows="20"
         spellCheck="false"
         value={enteredText}
         onChange={(e) => setEnteredText(e.target.value)}
@@ -46,10 +44,9 @@ function TranslationBoxOutput({ enteredText }) {
     <div className="TranslationBoxOutput Card Balloon">
       <textarea
         className="TranslationArea"
-        // cols="30"
-        // rows="20"
         spellCheck="false"
         value={cebolinha(enteredText)}
+        readOnly
       />
     </div>
   );

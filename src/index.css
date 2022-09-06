@@ -3,8 +3,8 @@
   --font-color: rgb(0, 0, 0);
   --bg-color: #009124;
   /* --comic-font-family: "Comic Neue", cursive; */
-  --comic-font-family: "Inter", sans-serif;
-  --normal-font-family: "Inter", sans-serif;
+  --comic-font-family: "Roboto", sans-serif;
+  --normal-font-family: "Roboto", sans-serif;
 }
 
 body {
