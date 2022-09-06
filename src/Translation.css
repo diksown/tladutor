@@ -1,14 +1,10 @@
-:root {
-  --shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
-}
-
 .Translation {
   background-color: var(--bg-text-color);
   max-width: 1024px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 20px;
+  margin: 25px 25px 0px 25px;
 }
 
 @media only screen and (max-width: 800px) {
@@ -22,6 +18,7 @@
   .TranslationOutput {
     background-color: #538766;
     color: white;
+    border-bottom: 2px solid #467e5b;
   }
 }
 
@@ -29,13 +26,16 @@
   .Translation {
     border-radius: 10px;
   }
+  .TranslationInput {
+    border-right: 1px solid #ccc;
+  }
 }
 
 .TranslationDescription {
   display: flex;
   width: 100%;
-  justify-content: space-around;
-  box-shadow: var(--shadow);
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
 }
 
 .TranslationDescription > * {
@@ -50,5 +50,4 @@
 
 .TranslationBox {
   padding: 20px;
-  box-shadow: var(--shadow);
 }

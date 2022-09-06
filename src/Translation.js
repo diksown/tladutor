@@ -34,9 +34,11 @@ function TranslationBoxOutput({ enteredText }) {
 function TranslationDescription() {
   return (
     <div className="TranslationDescription">
+      <div></div>
       <div>Português</div>
       <div>{`→`}</div>
-      <div>Poltuguês</div>
+      <div>Cebolinha</div>
+      <div></div>
     </div>
   );
 }
