@@ -5,26 +5,38 @@ import cebolinha from "cebolinha";
 
 function TranslationBoxInput({ enteredText, setEnteredText }) {
   return (
-    <div className="TranslationBoxInput Card Balloon">
-      <textarea
+    <div className="TranslationBox TranslationInput">
+      {/* <textarea
         className="TranslationArea"
         spellCheck="false"
         value={enteredText}
         onChange={(e) => setEnteredText(e.target.value)}
-      />
+      /> */}
+      {enteredText}
     </div>
   );
 }
 
 function TranslationBoxOutput({ enteredText }) {
   return (
-    <div className="TranslationBoxOutput Card Balloon">
-      <textarea
+    <div className="TranslationBox TranslationOutput">
+      {/* <textarea
         className="TranslationArea"
         spellCheck="false"
-        value={cebolinha(enteredText)}
+        value={enteredText}
         readOnly
-      />
+      /> */}
+      {cebolinha(enteredText)}
+    </div>
+  );
+}
+
+function TranslationDescription() {
+  return (
+    <div className="TranslationDescription">
+      <div>Português</div>
+      <div>{`→`}</div>
+      <div>Poltuguês</div>
     </div>
   );
 }
@@ -35,11 +47,14 @@ function Translation() {
 
   return (
     <div className="Translation">
-      <TranslationBoxInput
-        enteredText={enteredText}
-        setEnteredText={setEnteredText}
-      />
-      <TranslationBoxOutput enteredText={enteredText} />
+      <TranslationDescription />
+      <div className="TranslationBoxes">
+        <TranslationBoxInput
+          enteredText={enteredText}
+          setEnteredText={setEnteredText}
+        />
+        <TranslationBoxOutput enteredText={enteredText} />
+      </div>
     </div>
   );
 }
