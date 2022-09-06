@@ -2,6 +2,7 @@ import "./App.css";
 
 import Navbar from "./Navbar";
 import Translation from "./Translation";
+import Credits from "./Credits";
 import WebFont from "webfontloader";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Translation />
+      <Credits />
     </div>
   );
 }
