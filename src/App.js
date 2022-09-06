@@ -1,6 +1,6 @@
 import "./App.css";
 
-import AppLogo from "./AppLogo";
+import Navbar from "./Navbar";
 import Info from "./Info";
 import Translation from "./Translation";
 import WebFont from "webfontloader";
@@ -8,13 +8,13 @@ import WebFont from "webfontloader";
 function App() {
   WebFont.load({
     google: {
-      families: ["Roboto", "Zilla Slab", "Nunito"],
+      families: ["Nunito", "Space Grotesk:400,700", "sans-serif"],
     },
   });
 
   return (
     <div className="App">
-      <AppLogo />
+      <Navbar />
       <Translation />
       <Info />
     </div>

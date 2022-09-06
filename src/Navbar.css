@@ -1,0 +1,21 @@
+.Navbar {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  width: 100%;
+  z-index: 1;
+}
+
+#AppLogo {
+  font: bold 1.5em "Space Grotesk", sans-serif;
+}
+
+#GithubLogo {
+  color: inherit;
+}
