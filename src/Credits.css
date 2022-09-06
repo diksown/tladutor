@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   font-family: "Space Grotesk";
+  margin: 10px;
 }
 
 #ProfileLink {
