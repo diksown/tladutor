@@ -11,6 +11,16 @@
   margin: 20px;
 }
 
+@media only screen and (max-width: 800px) {
+  .Translation {
+    margin: 0px;
+  }
+  .TranslationBoxes {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+
 .TranslationDescription {
   display: flex;
   width: 100%;
@@ -26,12 +36,9 @@
 .TranslationBoxes {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
 }
 
 .TranslationBox {
   padding: 20px;
   box-shadow: var(--shadow);
-  box-shadow: 0 0 2 0 rgba(0, 0, 0, 1);
 }
