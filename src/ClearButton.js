@@ -4,7 +4,7 @@ import { IconContext } from "react-icons";
 
 const ClearIcon = () => {
   return (
-    <IconContext.Provider value={{ size: "2rem" }}>
+    <IconContext.Provider value={{ size: "30px" }}>
       <div>
         <MdClose />
       </div>

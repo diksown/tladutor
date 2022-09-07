@@ -1,7 +1,7 @@
 .Translation {
   --margin-amount: 25px;
   background-color: var(--bg-text-color);
-  max-width: 1024px;
+  max-width: 1280px;
   display: flex;
   flex-direction: column;
   align-items: center;

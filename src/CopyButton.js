@@ -7,7 +7,7 @@ import { CopyToClipboard } from "react-copy-to-clipboard";
 
 const CopyIcon = () => {
   return (
-    <IconContext.Provider value={{ size: "2rem" }}>
+    <IconContext.Provider value={{ size: "30px" }}>
       <div>
         <MdContentCopy />
       </div>

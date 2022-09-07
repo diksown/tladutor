@@ -7,7 +7,7 @@ import CopyButton from "./CopyButton";
 import ClearButton from "./ClearButton";
 
 function TextareaAutosizeStyle() {
-  const offset = "40px";
+  const offset = "25px";
   return {
     marginRight: offset,
     width: `calc(100% - ${offset})`,
