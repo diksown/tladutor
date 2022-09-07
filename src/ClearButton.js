@@ -13,8 +13,7 @@ const ClearIcon = () => {
 };
 
 const ClearButton = ({ setEnteredText }) => {
-  const handleClick = (e) => {
-    // e.stopPropagation();
+  const handleClick = () => {
     setEnteredText("");
   };
 

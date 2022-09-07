@@ -16,9 +16,8 @@ const CopyIcon = () => {
 };
 
 const CopyButton = ({ textToCopy }) => {
-  const handleClick = (e) => {
-    // e.stopPropagation();
-    toast.success("Copied to clipboard!");
+  const handleClick = () => {
+    toast.success("Copiado!");
   };
 
   return (

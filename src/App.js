@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div className="App">
-      <Toaster />
+      <Toaster position="bottom-right" />
       <Navbar />
       <Translation />
       <Credits />

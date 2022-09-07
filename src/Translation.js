@@ -1,6 +1,6 @@
 import "./Translation.css";
 import staticData from "./static.json";
-import { useState } from "react";
+import { useState, useRef } from "react";
 import cebolinha from "cebolinha";
 import TextareaAutosize from "react-textarea-autosize";
 import CopyButton from "./CopyButton";
@@ -22,12 +22,20 @@ function TextareaAutosizeStyle() {
 }
 
 function TranslationBoxInput({ enteredText, setEnteredText }) {
+  const ref = useRef();
+  const handleClick = () => {
+    ref.current.focus();
+  };
   return (
-    <div className="TranslationBox TranslationInput">
+    <div
+      className="TranslationBox TranslationInput"
+      onClick={() => handleClick()}
+    >
       {enteredText.length > 0 && (
         <ClearButton setEnteredText={setEnteredText} />
       )}
       <TextareaAutosize
+        ref={ref}
         autoFocus
         onChange={(e) => setEnteredText(e.target.value)}
         style={TextareaAutosizeStyle()}
