@@ -44,7 +44,7 @@ function TranslationDescription() {
 }
 
 function Translation() {
-  const defaultText = staticData.defaultEnteredText;
+  const defaultText = staticData.longRick;
   const [enteredText, setEnteredText] = useState(defaultText);
 
   return (
