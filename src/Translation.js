@@ -3,17 +3,22 @@ import staticData from "./static.json";
 import { useState } from "react";
 import cebolinha from "cebolinha";
 import TextareaAutosize from "react-textarea-autosize";
+import CopyButton from "./CopyButton";
 
-const TextareaAutosizeStyle = {
-  width: "100%",
-  resize: "none",
-  height: "100%",
-  border: "none",
-  outline: "none",
-  font: "inherit",
-  color: "inherit",
-  backgroundColor: "transparent",
-};
+function TextareaAutosizeStyle() {
+  const offset = "40px";
+  return {
+    marginRight: offset,
+    width: `calc(100% - ${offset})`,
+    resize: "none",
+    height: "100%",
+    border: "none",
+    outline: "none",
+    font: "inherit",
+    color: "inherit",
+    backgroundColor: "transparent",
+  };
+}
 
 function TranslationBoxInput({ enteredText, setEnteredText }) {
   return (
@@ -21,7 +26,7 @@ function TranslationBoxInput({ enteredText, setEnteredText }) {
       <TextareaAutosize
         autoFocus
         onChange={(e) => setEnteredText(e.target.value)}
-        style={TextareaAutosizeStyle}
+        style={TextareaAutosizeStyle()}
         defaultValue={enteredText}
       />
     </div>
@@ -29,18 +34,14 @@ function TranslationBoxInput({ enteredText, setEnteredText }) {
 }
 
 function TranslationBoxOutput({ enteredText }) {
+  const cebolinhaText = cebolinha(enteredText);
   return (
     <div className="TranslationBox TranslationOutput">
-      {/* <textarea
-        className="TranslationArea"
-        spellCheck="false"
-        value={enteredText}
-        readOnly
-      /> */}
+      <CopyButton textToCopy={cebolinhaText} />
       <TextareaAutosize
         readOnly
-        style={TextareaAutosizeStyle}
-        value={cebolinha(enteredText)}
+        style={TextareaAutosizeStyle()}
+        value={cebolinhaText}
       />
     </div>
   );
@@ -59,7 +60,7 @@ function TranslationDescription() {
 }
 
 function Translation() {
-  const defaultText = staticData.shortRick;
+  const defaultText = staticData.longRick;
   const [enteredText, setEnteredText] = useState(defaultText);
 
   return (

@@ -1,0 +1,12 @@
+.ActionButton {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}

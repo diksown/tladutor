@@ -1,5 +1,6 @@
 import "./App.css";
 
+import { Toaster } from "react-hot-toast";
 import Navbar from "./Navbar";
 import Translation from "./Translation";
 import Credits from "./Credits";
@@ -14,6 +15,7 @@ function App() {
 
   return (
     <div className="App">
+      <Toaster />
       <Navbar />
       <Translation />
       <Credits />

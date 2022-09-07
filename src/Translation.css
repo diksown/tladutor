@@ -56,4 +56,5 @@
 .TranslationBox {
   padding: 20px;
   flex-grow: 1;
+  position: relative;
 }
