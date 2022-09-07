@@ -16,12 +16,15 @@ const CopyIcon = () => {
 };
 
 const CopyButton = ({ textToCopy }) => {
+  const promoteText = "Mais tladuções em https://tladutor.dikson.xyz";
+  const composedText = `${textToCopy}\n\n${promoteText}`;
+
   const handleClick = () => {
     toast.success("Copiado!");
   };
 
   return (
-    <CopyToClipboard text={textToCopy}>
+    <CopyToClipboard text={composedText}>
       <button className="ActionButton" onClick={handleClick}>
         <CopyIcon />
       </button>

@@ -14,6 +14,8 @@
 
 #AppLogo {
   font: bold 1.5em "Space Grotesk", sans-serif;
+  color: inherit;
+  text-decoration: none;
 }
 
 #GithubLogo {
