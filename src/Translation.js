@@ -4,6 +4,7 @@ import { useState } from "react";
 import cebolinha from "cebolinha";
 import TextareaAutosize from "react-textarea-autosize";
 import CopyButton from "./CopyButton";
+import ClearButton from "./ClearButton";
 
 function TextareaAutosizeStyle() {
   const offset = "40px";
@@ -23,11 +24,14 @@ function TextareaAutosizeStyle() {
 function TranslationBoxInput({ enteredText, setEnteredText }) {
   return (
     <div className="TranslationBox TranslationInput">
+      {enteredText.length > 0 && (
+        <ClearButton setEnteredText={setEnteredText} />
+      )}
       <TextareaAutosize
         autoFocus
         onChange={(e) => setEnteredText(e.target.value)}
         style={TextareaAutosizeStyle()}
-        defaultValue={enteredText}
+        value={enteredText}
       />
     </div>
   );
@@ -37,7 +41,7 @@ function TranslationBoxOutput({ enteredText }) {
   const cebolinhaText = cebolinha(enteredText);
   return (
     <div className="TranslationBox TranslationOutput">
-      <CopyButton textToCopy={cebolinhaText} />
+      {enteredText.length > 0 && <CopyButton textToCopy={cebolinhaText} />}
       <TextareaAutosize
         readOnly
         style={TextareaAutosizeStyle()}
@@ -68,7 +72,7 @@ function Translation() {
       <TranslationDescription />
       <div className="TranslationBoxes">
         <TranslationBoxInput
-          enteredText={defaultText}
+          enteredText={enteredText}
           setEnteredText={setEnteredText}
         />
         <TranslationBoxOutput enteredText={enteredText} />
