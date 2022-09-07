@@ -18,7 +18,6 @@
   }
   .TranslationBoxes {
     flex-direction: column;
-    flex-wrap: wrap;
   }
   .TranslationOutput {
     background-color: #538766;

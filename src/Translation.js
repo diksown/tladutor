@@ -2,17 +2,28 @@ import "./Translation.css";
 import staticData from "./static.json";
 import { useState } from "react";
 import cebolinha from "cebolinha";
+import TextareaAutosize from "react-textarea-autosize";
+
+const TextareaAutosizeStyle = {
+  width: "100%",
+  resize: "none",
+  height: "100%",
+  border: "none",
+  outline: "none",
+  font: "inherit",
+  color: "inherit",
+  backgroundColor: "transparent",
+};
 
 function TranslationBoxInput({ enteredText, setEnteredText }) {
   return (
     <div className="TranslationBox TranslationInput">
-      {/* <textarea
-        className="TranslationArea"
-        spellCheck="false"
-        value={enteredText}
+      <TextareaAutosize
+        autoFocus
         onChange={(e) => setEnteredText(e.target.value)}
-      /> */}
-      {enteredText}
+        style={TextareaAutosizeStyle}
+        defaultValue={enteredText}
+      />
     </div>
   );
 }
@@ -26,7 +37,11 @@ function TranslationBoxOutput({ enteredText }) {
         value={enteredText}
         readOnly
       /> */}
-      {cebolinha(enteredText)}
+      <TextareaAutosize
+        readOnly
+        style={TextareaAutosizeStyle}
+        value={cebolinha(enteredText)}
+      />
     </div>
   );
 }
@@ -44,7 +59,7 @@ function TranslationDescription() {
 }
 
 function Translation() {
-  const defaultText = staticData.longRick;
+  const defaultText = staticData.shortRick;
   const [enteredText, setEnteredText] = useState(defaultText);
 
   return (
@@ -52,7 +67,7 @@ function Translation() {
       <TranslationDescription />
       <div className="TranslationBoxes">
         <TranslationBoxInput
-          enteredText={enteredText}
+          enteredText={defaultText}
           setEnteredText={setEnteredText}
         />
         <TranslationBoxOutput enteredText={enteredText} />
