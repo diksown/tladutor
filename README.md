@@ -4,7 +4,7 @@ O tradutor não-oficial para a "língua" do Cebolinha.
 
 Acesse em [tladutor.dikson.xyz →](https://tladutor.dikson.xyz)
 
-<sub>Feito com 💚 por <a href="https://dikson.xyz">@diksown<a></sub>
+<sub>Feito com calinho por <a href="https://dikson.xyz">@diksown<a> 💚</sub>
 
 ## Por que o Cebolinha fala assim? 💬
 
