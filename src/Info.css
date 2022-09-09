@@ -1,0 +1,13 @@
+.Info {
+  background-color: var(--bg-text-color);
+  margin: 1em;
+  padding: 1.2em;
+  border-radius: 1em;
+  font-size: 1em;
+  max-width: 800px;
+}
+
+.Info h2 {
+  margin: 0;
+  font-size: 1.2em;
+}
