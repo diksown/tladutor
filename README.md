@@ -4,6 +4,8 @@ O tradutor não-oficial para a "língua" do Cebolinha.
 
 Acesse em [tladutor.dikson.xyz →](https://tladutor.dikson.xyz)
 
+<img height="200px" src="https://user-images.githubusercontent.com/49994083/189264052-e254f26c-818a-4c37-884f-9a297f04cb92.png">
+
 <sub>Feito com calinho por <a href="https://dikson.xyz">@diksown<a> 💚</sub>
 
 ## Por que o Cebolinha fala assim? 💬
