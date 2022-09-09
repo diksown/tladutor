@@ -8,8 +8,7 @@ function Info() {
         O Cebolinha possui dislalia, uma alteração da fala em que a pessoa não
         consegue articular e pronunciar algumas palavras, principalmente quando
         possuem R ou L. No caso do Cebolinha, ele não consegue pronunciar o "R"
-        do começo e meio das palavras, pronunciando a letra L em seu lugar,
-        sendo uma característica marcante do personagem.
+        do começo e meio das palavras, pronunciando a letra L em seu lugar.
       </p>
       <h2>Curiosidades</h2>
       <ul>
@@ -71,16 +70,22 @@ function Info() {
       </ul>
       <h2>Referências</h2>
       <p>
-        Matéria no Tua Saúde sobre dislalia: Dislalia: o que é, causas e
-        tratamento.
+        Matéria no Tua Saúde sobre dislalia:{" "}
+        <a href="https://www.tuasaude.com/dislalia/">
+          Dislalia: o que é, causas e tratamento.
+        </a>
       </p>
       <p>
-        Repositório no GitHub usado para calcular a conversão: Inútil
-        transcritor para o Cebolinha.
+        Repositório no GitHub usado para calcular a conversão:{" "}
+        <a href="https://github.com/theuves-projects/cebolinha">
+          Inútil transcritor para o Cebolinha.
+        </a>
       </p>
       <p>
-        Página do Cebolinha no Fandom da Turma da Mônica: Cebolinha | Turma da
-        Mônica Wiki
+        Página do Cebolinha no Fandom da Turma da Mônica:{" "}
+        <a href="https://monica.fandom.com/pt-br/wiki/Cebolinha">
+          Cebolinha | Turma da Mônica Wiki
+        </a>
       </p>
     </div>
   );

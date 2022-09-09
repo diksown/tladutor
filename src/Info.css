@@ -23,6 +23,10 @@
   padding-left: 1em;
 }
 
+.Info a {
+  color: var(--bg-color);
+}
+
 .ExampleComicImage {
   max-height: 200px;
   max-width: 100%;
