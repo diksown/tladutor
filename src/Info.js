@@ -14,28 +14,59 @@ function Info() {
       <h2>Curiosidades</h2>
       <ul>
         <li>
-          Ao contrário do que muitos pensam, o Cebolinha não troca o R do final
-          das palavras.
+          <p>
+            Ao contrário do que muitos pensam, o Cebolinha não troca o R do
+            final das palavras.
+          </p>
+          <img
+            className="ExampleComicImage"
+            src="https://i.imgur.com/Yz1K27K.png"
+            alt="Exemplo do Cebolinha falando R no final"
+          />
         </li>
         <li>
-          Nas historinhas mais antigas, os diálogos do Cebolinha usavam aspas em
-          volta das palavras "eladas"
+          <p>
+            Após tratamento fonoaudiológico, o Cebolinha consegue falar
+            normalmente na Turma da Mônica Jovem.
+          </p>
+          <img
+            className="ExampleComicImage"
+            src="https://i.imgur.com/80XAHFj.png"
+            alt="Exemplo do Cebolinha falando normalmente na Turma da Mônica Jovem"
+          />
         </li>
-
         <li>
-          Após tratamento fonoaudiológico, o Cebolinha consegue falar
-          normalmente na Turma da Mônica Jovem, somente trocando as letras
-          quando nervoso.
+          <p>
+            Nas historinhas mais antigas, os diálogos do Cebolinha usavam aspas
+            em volta das palavras "eladas".
+          </p>
+          <img
+            className="ExampleComicImage"
+            src="https://i.imgur.com/aGrW184.jpeg"
+            alt="Exemplo do Cebolinha falando com aspas em volta das palavras"
+          />
         </li>
-
         <li>
-          O problema do Cebolinha é só na fala, então ele escreve e pensa sem
-          trocar as letras.
+          <p>
+            Quando a letra R vem antes de um L nos gibis, ela é substituída por
+            um U. No entanto, essa substituição é bem rara!
+          </p>
+          <img
+            className="ExampleComicImage"
+            src="https://i.imgur.com/bWrMFwb.png"
+            alt="Exemplo de substituição de R por U"
+          />
         </li>
-
         <li>
-          Cebolinha é só apelido! O nome completo desse personagem é Cebolácio
-          Junior Menezes da Silva.
+          <p>
+            O problema do Cebolinha é só na fala, então ele escreve e pensa sem
+            trocar as letras.
+          </p>
+          <img
+            className="ExampleComicImage"
+            src="https://i.imgur.com/Ubmp2Q8.jpeg"
+            alt="Exemplo de Cebolinha pensando normalmente"
+          />
         </li>
       </ul>
       <h2>Referências</h2>
