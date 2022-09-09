@@ -1,6 +1,6 @@
 # 不 tladutor
 
-O tradutor não-oficial para a "língua" do Cebolinha.
+O tladutor não-oficial da "língua" do Cebolinha.
 
 Acesse em [tladutor.dikson.xyz →](https://tladutor.dikson.xyz)
 
