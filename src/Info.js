@@ -12,11 +12,11 @@ function Info() {
         sendo uma característica marcante do personagem.
       </p>
       <h2>Curiosidades</h2>
-      <p>
-        Ao contrário do que muitos pensam, o Cebolinha não troca o R do final
-        das palavras.
-      </p>
       <ul>
+        <li>
+          Ao contrário do que muitos pensam, o Cebolinha não troca o R do final
+          das palavras.
+        </li>
         <li>
           Nas historinhas mais antigas, os diálogos do Cebolinha usavam aspas em
           volta das palavras "eladas"

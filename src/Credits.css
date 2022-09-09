@@ -2,10 +2,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: "Space Grotesk";
-  margin: 10px;
+  font-family: "Inconsolata", monospace;
+  margin: 20px 10px 20px 10px;
 }
 
-#ProfileLink {
+.SimpleLink {
   color: inherit;
 }

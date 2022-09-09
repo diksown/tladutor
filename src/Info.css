@@ -1,10 +1,16 @@
 .Info {
   background-color: var(--bg-text-color);
-  margin: 1em;
+  margin: 1.5em 1em 0 1em;
   padding: 1.2em;
-  border-radius: 1em;
+  border-radius: 10px;
   font-size: 1em;
   max-width: 800px;
+}
+
+@media screen and (min-width: 800px) {
+  .Info {
+    margin: 1.5em 2em 0 2em;
+  }
 }
 
 .Info h2 {

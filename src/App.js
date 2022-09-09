@@ -10,7 +10,7 @@ import WebFont from "webfontloader";
 function App() {
   WebFont.load({
     google: {
-      families: ["Roboto", "Nunito", "Space Grotesk:400,700", "sans-serif"],
+      families: ["Roboto", "Nunito", "Space Grotesk:400,700", "Inconsolata"],
     },
   });
 
