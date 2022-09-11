@@ -1,10 +1,21 @@
 import "./Translation.css";
 import staticData from "./static.json";
 import { useState, useRef } from "react";
-import cebolinha from "cebolinha";
 import TextareaAutosize from "react-textarea-autosize";
 import CopyButton from "./CopyButton";
 import ClearButton from "./ClearButton";
+
+// Mostly taken from https://github.com/theuves-projects/cebolinha
+// Fixes a bug with words with accents (três -> três instead of tlês)
+function cebolinha(text) {
+  return text
+    .replace(/r(?=(l|L))/g, "u")
+    .replace(/R(?=(l|L))/g, "U")
+    .replace(/r+(?!\b)/g, "l")
+    .replace(/R+(?!\b)/g, "L")
+    .replace(/r(?=[À-ÖØ-ö])/g, "l")
+    .replace(/R(?=[À-ÖØ-ö])/g, "L");
+}
 
 function TextareaAutosizeStyle() {
   const offset = "25px";
