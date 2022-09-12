@@ -1,12 +1,17 @@
-# 不 tladutor
+<div align="center">
+  <h1>不 tladutor</h1>
 
-O tladutor não-oficial da "língua" do Cebolinha.
-
+_O tradutor não-oficial da "língua" do Cebolinha._
+  
 Acesse em [tladutor.dikson.xyz →](https://tladutor.dikson.xyz)
 
-<img height="200px" src="https://user-images.githubusercontent.com/49994083/189264052-e254f26c-818a-4c37-884f-9a297f04cb92.png">
 
-<sub>Feito com calinho por <a href="https://dikson.xyz">@diksown<a> 💚</sub>
+  
+</div>
+
+<img align="right" height="300px" src="https://user-images.githubusercontent.com/49994083/189572038-6f89bf70-321c-4a3d-8d20-85c19c8ec507.png">
+
+
 
 ## Por que o Cebolinha fala assim? 💬
 
@@ -41,3 +46,12 @@ Repositório no GitHub usado para calcular a conversão: [Inútil
 transcritor para o Cebolinha.](https://github.com/theuves-projects/cebolinha)
 
 Página do Cebolinha no Fandom da Turma da Mônica: [Cebolinha | Turma da Mônica Wiki](https://monica.fandom.com/pt-br/wiki/Cebolinha)
+
+<br>
+
+<div align="center">
+
+<sub>Feito com calinho por <a href="https://dikson.xyz">@diksown<a> 💚</sub>  
+<img height="20px" src="https://user-images.githubusercontent.com/49994083/189573872-f81a164a-de54-4536-a520-5e5124cf9653.png">
+
+</div>
