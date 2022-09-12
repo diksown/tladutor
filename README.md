@@ -5,9 +5,9 @@ _O tradutor não-oficial da "língua" do Cebolinha._
 
 Acesse em [tladutor.dikson.xyz →](https://tladutor.dikson.xyz)
 
-</div>
+<img align="center" height="200px" src="https://user-images.githubusercontent.com/49994083/189574655-abb9f3fb-e786-480a-ab69-213c52918c04.png">
 
-<img align="right" height="300px" src="https://user-images.githubusercontent.com/49994083/189572038-6f89bf70-321c-4a3d-8d20-85c19c8ec507.png">
+</div>
 
 ## Por que o Cebolinha fala assim? 💬
 
