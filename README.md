@@ -2,16 +2,12 @@
   <h1>不 tladutor</h1>
 
 _O tradutor não-oficial da "língua" do Cebolinha._
-  
+
 Acesse em [tladutor.dikson.xyz →](https://tladutor.dikson.xyz)
 
-
-  
 </div>
 
 <img align="right" height="300px" src="https://user-images.githubusercontent.com/49994083/189572038-6f89bf70-321c-4a3d-8d20-85c19c8ec507.png">
-
-
 
 ## Por que o Cebolinha fala assim? 💬
 
@@ -25,17 +21,12 @@ do começo e meio das palavras, pronunciando a letra L em seu lugar, sendo uma c
 - Ao contrário do que <b>muitos</b> pensam, o Cebolinha não troca o R do final
   das palavras.
 
+- Após tratamento fonoaudiológico, o Cebolinha consegue falar normalmente na adolescência.
+
 - Nas historinhas mais antigas, os diálogos do Cebolinha usavam aspas em
   volta das palavras "eladas"
 
-- Após tratamento fonoaudiológico, o Cebolinha consegue falar
-  normalmente na Turma da Mônica Jovem, somente trocando as letras
-  quando nervoso.
-
-- O problema do Cebolinha é só na fala, então ele escreve e pensa sem
-  trocar as letras.
-
-- Cebolinha é só apelido! O nome completo desse personagem é Cebolácio Junior Menezes da Silva.
+- O problema do Cebolinha é só na fala, então ele escreve e pensa sem trocar as letras.
 
 ## Referências 💭
 
