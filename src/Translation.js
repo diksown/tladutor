@@ -1,5 +1,5 @@
 import "./Translation.css";
-import staticData from "./static.json";
+import phrases from "./static.json";
 import { useState, useRef } from "react";
 import TextareaAutosize from "react-textarea-autosize";
 import CopyButton from "./CopyButton";
@@ -83,7 +83,7 @@ function TranslationDescription() {
 }
 
 function Translation() {
-  const defaultText = staticData.longRick;
+  const defaultText = phrases[Math.floor(Math.random() * phrases.length)];
   const [enteredText, setEnteredText] = useState(defaultText);
 
   return (
