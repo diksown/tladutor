@@ -5,7 +5,7 @@ _O tradutor não-oficial da "língua" do Cebolinha._
 
 Acesse em [tladutor.dikson.xyz →](https://tladutor.dikson.xyz)
 
-<img align="center" height="250px" src="https://user-images.githubusercontent.com/49994083/189575240-6bb42396-df61-4d81-9e4e-68e80053afae.png">
+<img align="center" height="200px" src="https://user-images.githubusercontent.com/49994083/189575240-6bb42396-df61-4d81-9e4e-68e80053afae.png">
 
 </div>
 
